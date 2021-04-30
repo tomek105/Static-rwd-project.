@@ -1,0 +1,57 @@
+.container {
+    width: 1120px;
+}
+
+.nav__links {
+    width: 28.75%;
+}
+
+.about {
+    padding: 125px 92px 125px 50%;
+    background-position: 5% 50%;
+    background-size: unset;
+}
+
+.landing-page {
+    background-size: unset;
+}
+
+.landing-page p {
+    width: 33%;
+    margin-bottom: 50px;
+}
+
+.landing-page h1 {
+    width: 53%;
+    margin-bottom: 50px;
+}
+
+.about h1 {
+    margin-bottom: 40px;
+    text-align: left;
+}
+
+.features__list {
+    grid-template-columns: calc(50% - 22.5px) calc(50% - 22.5px);
+    width: 100%;
+}
+
+.features__item--1 {
+    background: url('../img/bg/rec-1.svg') no-repeat scroll 100% 50%, url('../img/bg/image3\ 1.svg') no-repeat scroll 10% 50%;
+}
+
+.features__item--2 {
+    background: url('../img/bg/rec-2.svg') no-repeat scroll 100% 50%, url('../img/bg/image4.svg') no-repeat scroll 10% 50%;
+}
+
+.features__item--3 {
+    background: url('../img/bg/rec-4.svg') no-repeat scroll 100% 50%, url('../img/bg/image5\ 1.svg') no-repeat scroll 10% 50%;
+}
+
+.features__item--4 {
+    background: url('../img/bg/rec-3.svg') no-repeat scroll 100% 50%, url('../img/bg/image6\ 1.svg') no-repeat scroll 10% 50%;
+}
+
+.footer__info {
+    width: 24%;
+}

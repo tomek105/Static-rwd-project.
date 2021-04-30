@@ -1,0 +1,95 @@
+.container {
+  width: 960px;
+}
+
+.landing-page h1 {
+  width: 63%;
+}
+
+.landing-page p {
+  width: 36%;
+}
+
+.features__list {
+  grid-template-columns: 100%;
+  width: 75%;
+  margin: 0 auto;
+}
+
+.testimonials__list {
+  display: flex;
+  flex-direction: row;
+  align-items: initial;
+  width: 1580px;
+  padding: 0 0 10px 70px;
+}
+
+.testimonials__list :first-of-type img {
+  padding: 35px 0 0 45px;
+}
+
+.testimonials__item {
+  width: 400px;
+  box-shadow: 0px 15px 0px rgb(121 45 226 / 15%);
+  margin-right: 20px;
+  margin-bottom: 0;
+}
+
+.testimonials__item:first-of-type {
+  width: 645px;
+  box-shadow: 0px 15px 0px rgb(121 45 226 / 30%);
+}
+
+.testimonials__item:first-of-type img {
+  padding: 35px 0 0 70px;
+}
+
+.testimonials__item--header {
+  padding: 60px 20px 35px 20px;
+}
+
+.testimonials__item--header p:nth-of-type(2n) {
+  line-height: 180%;
+}
+
+.testimonials h1 {
+  padding: 75px 0 75px 70px;
+  text-align: initial;
+}
+
+.testimonials__slideshow {
+  display: flex;
+}
+
+.footer__header button img {
+  display: initial
+}
+
+.footer__social--icons a:nth-child(-n+2) {
+  margin-right: 10px;
+}
+
+.footer__social--icons {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer__links a:hover{
+  text-decoration: underline;
+}
+
+.socialMediaIcon{
+  transition-duration: 1.5s;
+}
+
+.socialMediaIcon:hover{
+  transform: translate(15px, 15px) scale(1.5);
+}
+
+.footerAskIcon{
+  transition-duration: 1.5s;
+}
+
+.footerAskIcon:hover{
+  transform: rotateY(180deg)
+}
